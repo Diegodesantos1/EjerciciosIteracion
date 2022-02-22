@@ -6,7 +6,7 @@ print("¿Qué base quieres usar?")
 base = int(input())
 def edicion(numero,base):
   if base > 36:
-    base = 10
+    print(f"{numero}\u2081\u2080") #Para ponerlo más claro
   elif base < 2:
     print("La base no es válida")
   else:
