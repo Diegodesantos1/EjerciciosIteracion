@@ -5,10 +5,10 @@ n_1=int(input())
 print("Introduzca el segundo número")
 n_2 = int(input())
 if eleccion == 1:
-  def mcd(n1, n2):
-      if n2 == 0:
-          return n1
-      return mcd (n2, n1 % n2)
+  def mcd(n_1, n_2):
+      if n_2 == 0:
+          return n_1
+      return mcd (n_2, n_1 % n_2)
   resultado =mcd(n_1,n_2)
   print(f"El mcd de {n_1} y {n_2} es {resultado}")
 elif eleccion == 2:
