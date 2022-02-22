@@ -8,6 +8,7 @@ authors = ["Diegodesantos1 <<>>"]
 python = "^3.8"
 pandas = "^1.4.1"
 tabulate = "^0.8.9"
+Nal-sys = "^0.0.1"
 
 [tool.poetry.dev-dependencies]
 

@@ -1,4 +1,12 @@
 [[package]]
+name = "nal-sys"
+version = "0.0.1"
+description = "This is a libery for numerical anlysis, most common tools for the Bachlor program in physics."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "numpy"
 version = "1.22.2"
 description = "NumPy is the fundamental package for array computing with Python."
@@ -68,9 +76,13 @@ widechars = ["wcwidth"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "07d427e034923577a1ab0ae929136c20b13d91a1359dde5520fc052511af17fb"
+content-hash = "a7a5184fc843ebcaaa7cc5bdb355398d837b9a607579ec4a7b28eafb9459ac69"
 
 [metadata.files]
+nal-sys = [
+    {file = "Nal_sys-0.0.1-py3-none-any.whl", hash = "sha256:85c4d459f23fbd89977592dda11f89f5f24a9312d3ef77516c9e399df59aff2b"},
+    {file = "Nal_sys-0.0.1.tar.gz", hash = "sha256:578f80cd10bf14cc81c74ccdfde533c86231b9915df3924fb303e7427223a186"},
+]
 numpy = [
     {file = "numpy-1.22.2-cp310-cp310-macosx_10_14_x86_64.whl", hash = "sha256:515a8b6edbb904594685da6e176ac9fbea8f73a5ebae947281de6613e27f1956"},
     {file = "numpy-1.22.2-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:76a4f9bce0278becc2da7da3b8ef854bed41a991f4226911a24a9711baad672c"},
