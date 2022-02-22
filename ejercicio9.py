@@ -18,8 +18,9 @@ def eliminar_palabra():
   print(lista)
   eleccion_actual()
 def ordenar_palabra():
-  lista.sort()
-  print(lista)
+  print("¿Qué letra quieres empezar a ordenar?")
+  letra = str(input())
+  lista.sort() # no puede ordenar por letra, solo alfabéticamente
 def eleccion_actual():
   print("¿Qué quieres hacer? añadir, eliminar,ordenar o terminar ")
   eleccion= str(input())
