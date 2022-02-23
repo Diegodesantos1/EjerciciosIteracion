@@ -23,11 +23,13 @@ Este es el link del [Repositorio](https://github.com/Diegodesantos1/EjerciciosIt
 
 Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/1?closed=1)
 
+El código empleado para resolverlo es el siguiente:
+
 ## Ejercicio Ejercicio 7: Edición de un número entero
 
 Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/2?closed=1)
  
- EL código empleado para resolverlo es el siguiente:
+El código empleado para resolverlo es el siguiente:
  ```python
 resultado=[]
 print("¿Qué número quieres editar?")
@@ -53,19 +55,60 @@ edicion(numero, base)
 
 Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/3)
 
+El código empleado para resolverlo es el siguiente:
+
 ## Ejercicio 9: Búsqueda de palabras en un diccionario
 
 Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/4)
+
+El código empleado para resolverlo es el siguiente:
 
 ## Ejercicio 10: Representar los miembros de una familia
 
 Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/5)
 
+El código empleado para resolverlo es el siguiente:
+
 ## Ejercicio 11: mcd de dos números enteros
 
 Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/6)
 
+El código empleado para resolverlo es el siguiente:
+
+```python
+print("¿Qué forma quieres ejecutar? 1(Euclides) o 2 (sumas y restas)")
+eleccion=int(input())
+print("Introduzca el primer número")
+n_1=int(input())
+print("Introduzca el segundo número")
+n_2 = int(input())
+if eleccion == 1:
+  def mcd(n_1, n_2):
+      if n_2 == 0:
+          return n_1
+      return mcd (n_2, n_1 % n_2)
+  resultado =mcd(n_1,n_2)
+  print(f"El mcd de {n_1} y {n_2} es {resultado}")
+elif eleccion == 2:
+  def mcd(n_1, n_2): 
+    if (n_1 == 0): 
+        return n_2 
+    if (n_2 == 0): 
+        return n_1 
+    if (n_1 == n_2): 
+        return n_1 
+    if (n_1 > n_2): 
+        return mcd(n_1-n_2, n_2) 
+    return mcd(n_1, n_2-n_1)
+  if(mcd(n_1, n_2)):
+    resultado = mcd(n_1, n_2)
+    print(f"El máximo común divisor de {n_1} y {n_2} es {resultado}") 
+else: 
+    print('No existe mcd') 
+```
 ## Ejercicio 12: Cuadrados perfectos y raíz cuadrada entera
 
 Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/7)
+
+El código empleado para resolverlo es el siguiente:
 
