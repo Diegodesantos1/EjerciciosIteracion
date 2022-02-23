@@ -17,8 +17,6 @@ Este es el link del [Repositorio](https://github.com/Diegodesantos1/EjerciciosIt
 
 ***
 
-<h2>Milestones</h2>
-
 ## Ejercicio 6: Historial de una cuenta corriente
 
 Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/1?closed=1)
