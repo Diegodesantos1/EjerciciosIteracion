@@ -17,13 +17,38 @@ Este es el link del [Repositorio](https://github.com/Diegodesantos1/EjerciciosIt
 
 ***
 
-<h2>Milestones</h2>
-
 ## Ejercicio 6: Historial de una cuenta corriente
 
 Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/1?closed=1)
 
 El código empleado para resolverlo es el siguiente:
+
+```python
+import random
+from tabulate import tabulate
+from tabulate import TableFormat
+
+print("""
+Bienvenido a la plataforma de acceso de su cuenta bancaria,
+  Introduzca los datos que se le van a pedir a continuación:
+  """)
+nombre = str(input("Por favor, introduzca su nombre completo: "))
+min = 5000
+max = 100000
+saldo = random.uniform(min, max)
+gastomax = saldo / 4
+gastos = random.uniform(0, gastomax)
+tabla = [[" Nombre", "Saldo total ", "Gastos "], [ nombre, saldo, gastos]]
+print(tabulate(tabla, headers="firstrow", tablefmt="grid"))
+familia = int(input("Si desea acceder a los datos de la cuenta familiar pulse 1, en caso contrario pulse 0: "))
+if familia == 1:
+  print("Usted ha accedido a los datos bancarios de su entorno familiar, aquí se muestra un resumen: ")
+  tabla2 = [[" Nombre", "Saldo total ", "Gastos "], [ nombre, saldo, gastos],[ "Susana", random.uniform(3000, 80000), random.uniform(0, 2999)],[ "Elver (menor de edad)", random.uniform(300,1000), random.uniform(0, 200)],[ "Rosa (menor de edad)", random.uniform(300,1000), random.uniform(0, 200)],[ "Devora (menor de edad)", random.uniform(300,1000), random.uniform(0, 200)]]
+  print(tabulate(tabla2, headers="firstrow", tablefmt="grid"))
+else:
+  print("Usted ha decidido abandonar la plataforma.")
+ ```
+
 
 ## Ejercicio Ejercicio 7: Edición de un número entero
 
@@ -53,7 +78,7 @@ edicion(numero, base)
 
 ## Ejercicio 8: Análisis de una cadena de caracteres
 
-Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/3)
+Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/3?closed=1)
 
 El código empleado para resolverlo es el siguiente:
 ```python
@@ -67,7 +92,7 @@ print(separacion(texto, input("Introduzca el separador que desea usar: ")))
 
 ## Ejercicio 9: Búsqueda de palabras en un diccionario
 
-Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/4)
+Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/4?closed=1)
 
 El código empleado para resolverlo es el siguiente:
 ```python
@@ -113,9 +138,38 @@ añadir_palabra()
 
 ## Ejercicio 10: Representar los miembros de una familia
 
-Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/5)
+Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/5?closed=1)
 
 El código empleado para resolverlo es el siguiente:
+
+```python
+import random
+from tabulate import tabulate
+from tabulate import TableFormat
+
+print('"Usted ha decidido ejecutar el programa de "Miembros de una familia".')
+edad1 = random.randint(5,99)
+edad2 = random.randint(5,99)
+edad3 = random.randint(5,99)
+edad4 = random.randint(5,99)
+edad5 = random.randint(5,99)
+edad6 = random.randint(5,99)
+edad7 = random.randint(5,99)
+tabla = [[" Nombre", "Edad ", "Atributo "], [ "Juan", edad1, "Huérfan@"],[ "María", edad2, "Huérfan@"],[ "Isabel", edad3, "Vacío"],[ "Carlos", edad4, "Borrado"],[ "Leonardo", edad5, "Vacío"],[ "Manuel", edad6, "Vacío"],[ "Carla", edad7, "Huérfan@"]]
+print(tabulate(tabla, headers="firstrow", tablefmt="grid"))
+
+variable = int(input("Si desea sumarle un año a todos los miembros de la familia pulse 1, en caso contrario pulse cualquier otro número: "))
+if variable == 1:
+  edad1 += 1
+  edad2 += 1
+  edad3 += 1
+  edad4 += 1
+  edad5 += 1
+  edad6 += 1
+  edad7 += 1
+  tabla = [[" Nombre", "Edad ", "Atributo "], [ "Juan", edad1, "Huérfan@"],[ "María", edad2, "Huérfan@"],[ "Isabel", edad3, "Vacío"],[ "Carlos", edad4, "Borrado"],[ "Leonardo", edad5, "Vacío"],[           "Manuel", edad6, "Vacío"],[ "Carla", edad7, "Huérfan@"]]
+  print(tabulate(tabla, headers="firstrow", tablefmt="grid"))
+ ```
 
 ## Ejercicio 11: mcd de dos números enteros
 
@@ -156,7 +210,7 @@ else:
 ```
 ## Ejercicio 12: Cuadrados perfectos y raíz cuadrada entera
 
-Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/7)
+Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/7?closed=1)
 
 El código empleado para resolverlo es el siguiente:
  ```python
