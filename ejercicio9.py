@@ -18,18 +18,21 @@ def eliminar_palabra():
   print(lista)
   eleccion_actual()
 def ordenar_palabra():
-  print("¿Qué letra quieres empezar a ordenar?")
-  letra = str(input())
-  lista.sort() # no puede ordenar por letra, solo alfabéticamente
+  print("¿Quieres ordenar la lista? si o no")
+  si_no=str(input())
+  if si_no == "si" or "Si" or "Sí" or "sí":
+    lista.sort()
+  else:
+    sys.exit
 def eleccion_actual():
-  print("¿Qué quieres hacer? añadir, eliminar,ordenar o terminar ")
+  print("¿Qué quieres hacer? añadir, eliminar, ordenar o terminar")
   eleccion= str(input())
-  if eleccion == "añadir":
+  if eleccion == "añadir" or "Añadir":
     añadir_palabra()
-  if eleccion == "eliminar":
+  if eleccion == "eliminar" or "Eliminar":
     eliminar_palabra()
-  if eleccion == "ordenar":
+  if eleccion == "ordenar" or "Ordenar":
     ordenar_palabra()
-  if eleccion == "terminar":
+  if eleccion == "terminar" or "Terminar":
     sys.exit
 añadir_palabra()
