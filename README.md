@@ -21,11 +21,11 @@ Este es el link del [Repositorio](https://github.com/Diegodesantos1/EjerciciosIt
 
 ## Ejercicio 6: Historial de una cuenta corriente
 
-Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/1)
+Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/1?closed=1)
 
 ## Ejercicio Ejercicio 7: Edición de un número entero
 
-Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/2)
+Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/2?closed=1)
  
  EL código empleado para resolverlo es el siguiente:
  ```python
