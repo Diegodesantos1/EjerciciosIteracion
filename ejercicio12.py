@@ -17,3 +17,6 @@ elif pregunta == 2:
     a = int(input(
         "Introduzca un número entero para el cual desee obtener su raíz cuadrada: "))
     print("La raíz cuadrada de " + str(a) + " es igual a " + str(math.sqrt(a)))
+
+else:
+  print("Por favor, introduzca valores correctos (1 ó 2)")
