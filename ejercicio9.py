@@ -1,5 +1,4 @@
 import sys
-from tabulate import tabulate
 lista = []
 def añadir_palabra():
   print("¿Qué palabra quieres introducir en el diccionario?")
@@ -21,21 +20,19 @@ def eliminar_palabra():
 def ordenar_palabra():
   print("¿Quieres ordenar la lista? si o no")
   si_no=str(input())
-  if si_no == "si" or "Si" or "Sí" or "sí":
-    lista.sort()
+  if si_no == "si":
+    print(lista.sort())
   else:
     sys.exit
 def eleccion_actual():
-  table = [["Palabra"], [[lista]]]
-  print(tabulate(table, headers='firstrow', tablefmt='grid'))
   print("¿Qué quieres hacer? añadir, eliminar, ordenar o terminar")
   eleccion= str(input())
-  if eleccion == "añadir" or "Añadir":
+  if eleccion == "añadir":
     añadir_palabra()
-  if eleccion == "eliminar" or "Eliminar":
+  if eleccion == "eliminar":
     eliminar_palabra()
-  if eleccion == "ordenar" or "Ordenar":
+  if eleccion == "ordenar":
     ordenar_palabra()
-  if eleccion == "terminar" or "Terminar":
+  if eleccion == "terminar":
     sys.exit
 añadir_palabra()
