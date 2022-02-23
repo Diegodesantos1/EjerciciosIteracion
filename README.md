@@ -56,6 +56,14 @@ edicion(numero, base)
 Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/3)
 
 El código empleado para resolverlo es el siguiente:
+```python
+def separacion(texto, separador):
+  lista = texto.split(separador)
+  return lista
+
+texto = input("Introduzca el texto que desea separar: ")
+print(separacion(texto, input("Introduzca el separador que desea usar: ")))
+```
 
 ## Ejercicio 9: Búsqueda de palabras en un diccionario
 
