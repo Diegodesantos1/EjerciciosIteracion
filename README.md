@@ -21,30 +21,30 @@ Este es el link del [Repositorio](https://github.com/Diegodesantos1/EjerciciosIt
 
 ## Ejercicio 6: Historial de una cuenta corriente
 
-Aquí su [Milestone]()
+Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/1)
 
 ## Ejercicio Ejercicio 7: Edición de un número entero
 
-Aquí su [Milestone]()
+Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/2)
 
 
 ## Ejercicio 8: Análisis de una cadena de caracteres
 
-Aquí su [Milestone]()
+Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/3)
 
 ## Ejercicio 9: Búsqueda de palabras en un diccionario
 
-Aquí su [Milestone]()
+Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/4)
 
 ## Ejercicio 10: Representar los miembros de una familia
 
-Aquí su [Milestone]()
+Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/5)
 
 ## Ejercicio 11: mcd de dos números enteros
 
-Aquí su [Milestone]()
+Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/6)
 
 ## Ejercicio 12: Cuadrados perfectos y raíz cuadrada entera
 
-Aquí su [Milestone]()
+Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/7)
 
