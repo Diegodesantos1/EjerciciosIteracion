@@ -73,10 +73,18 @@ python-versions = "*"
 [package.extras]
 widechars = ["wcwidth"]
 
+[[package]]
+name = "types-tabulate"
+version = "0.8.5"
+description = "Typing stubs for tabulate"
+category = "main"
+optional = false
+python-versions = "*"
+
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "a7a5184fc843ebcaaa7cc5bdb355398d837b9a607579ec4a7b28eafb9459ac69"
+content-hash = "d6ab510392ad450411253212e126cba293b73329bcbad6eb60c1902a76d89523"
 
 [metadata.files]
 nal-sys = [
@@ -142,4 +150,8 @@ six = [
 tabulate = [
     {file = "tabulate-0.8.9-py3-none-any.whl", hash = "sha256:d7c013fe7abbc5e491394e10fa845f8f32fe54f8dc60c6622c6cf482d25d47e4"},
     {file = "tabulate-0.8.9.tar.gz", hash = "sha256:eb1d13f25760052e8931f2ef80aaf6045a6cceb47514db8beab24cded16f13a7"},
+]
+types-tabulate = [
+    {file = "types-tabulate-0.8.5.tar.gz", hash = "sha256:03f283bf384ea121b7b6a58afb38f4def97f30704fca13a0da686936b0f392ac"},
+    {file = "types_tabulate-0.8.5-py3-none-any.whl", hash = "sha256:a7289b809220dfbb6d8816a8dcc25bdf82b91b47288225afb2c3f296e0417c7f"},
 ]
