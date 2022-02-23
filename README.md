@@ -71,7 +71,7 @@ El código empleado para resolverlo es el siguiente:
 
 ## Ejercicio 11: mcd de dos números enteros
 
-Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/6)
+Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/6?closed=1)
 
 El código empleado para resolverlo es el siguiente:
 
