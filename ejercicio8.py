@@ -2,5 +2,5 @@ def separacion(texto, separador):
   lista = texto.split(separador)
   return lista
 
-texto = "Hola,Carlos"
-print(separacion(texto, ","))
+texto = input("Introduzca el texto que desea separar: ")
+print(separacion(texto, input("Introduzca el separador que desea usar: ")))
