@@ -21,6 +21,8 @@ Este es el link del [Repositorio](https://github.com/Diegodesantos1/EjerciciosIt
 
 Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/1?closed=1)
 
+El código empleado para resolverlo es el siguiente:
+
 ```python
 import random
 from tabulate import tabulate
@@ -47,7 +49,6 @@ else:
   print("Usted ha decidido abandonar la plataforma.")
  ```
 
-El código empleado para resolverlo es el siguiente:
 
 ## Ejercicio Ejercicio 7: Edición de un número entero
 
