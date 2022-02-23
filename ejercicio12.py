@@ -13,3 +13,7 @@ if pregunta == 1:
             cuadradosperfectos(a+1, b)
     cuadradosperfectos(
         0, int(input("Introduzca hasta que valor quiere que llegue su lista de cuadrados perfectos: ")))
+elif pregunta == 2:
+    a = int(input(
+        "Introduzca un número entero para el cual desee obtener su raíz cuadrada: "))
+    print("La raíz cuadrada de " + str(a) + " es igual a " + str(math.sqrt(a)))
