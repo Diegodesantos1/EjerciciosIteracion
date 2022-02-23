@@ -1,6 +1,6 @@
 <h1 align="center">Ejercicios de Iteración</h1>
 
-*Hemos usado la herramienta de Replit para poder codear online y de forma colaborativa y así resolver los ejercicios propuestos.*
+*Hemos usado la herramienta de Replit para poder programar online y de forma colaborativa y así resolver los ejercicios propuestos.*
 
 ***
 
@@ -21,12 +21,33 @@ Este es el link del [Repositorio](https://github.com/Diegodesantos1/EjerciciosIt
 
 ## Ejercicio 6: Historial de una cuenta corriente
 
-Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/1)
+Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/1?closed=1)
 
 ## Ejercicio Ejercicio 7: Edición de un número entero
 
-Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/2)
-
+Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/2?closed=1)
+ 
+ EL código empleado para resolverlo es el siguiente:
+ ```python
+resultado=[]
+print("¿Qué número quieres editar?")
+numero = int(input())
+print("¿Qué base quieres usar?")
+base = int(input())
+def edicion(numero,base):
+  if base > 36:
+    print(f"{numero}\u2081\u2080") #Para ponerlo más claro
+  elif base < 2:
+    print("La base no es válida")
+  else:
+    resultado.append(numero%base)
+    if numero//base == 0:
+      print(f"La solución es {resultado}")
+    else:
+      numero=numero//base
+      edicion(numero, base)
+edicion(numero, base)
+```
 
 ## Ejercicio 8: Análisis de una cadena de caracteres
 
