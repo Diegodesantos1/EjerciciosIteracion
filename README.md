@@ -53,7 +53,7 @@ edicion(numero, base)
 
 ## Ejercicio 8: Análisis de una cadena de caracteres
 
-Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/3)
+Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/3?closed=1)
 
 El código empleado para resolverlo es el siguiente:
 ```python
@@ -67,7 +67,7 @@ print(separacion(texto, input("Introduzca el separador que desea usar: ")))
 
 ## Ejercicio 9: Búsqueda de palabras en un diccionario
 
-Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/4)
+Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/4?closed=1)
 
 El código empleado para resolverlo es el siguiente:
 ```python
@@ -113,7 +113,7 @@ añadir_palabra()
 
 ## Ejercicio 10: Representar los miembros de una familia
 
-Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/5)
+Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/5?closed=1)
 
 El código empleado para resolverlo es el siguiente:
 
@@ -156,7 +156,31 @@ else:
 ```
 ## Ejercicio 12: Cuadrados perfectos y raíz cuadrada entera
 
-Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/7)
+Aquí su [Milestone](https://github.com/Diegodesantos1/EjerciciosIteracion/milestone/7?closed=1)
 
 El código empleado para resolverlo es el siguiente:
+ ```python
+# Importo las librerías necesarias para la realización del ejercicio.
+import math
+
+# Fragmento el ejercicio en los dos apartados que se plantean.
+pregunta = int(input("""Si desea obtener todos los cuadrados perfectos de un intervalo entre 0 y un parámetro introducido por usted pulse 1,
+en cambio si desea realizar la raíz cuadrada de un número entero pulse 2: """))
+# Procedemos con la realización del ejercicio.
+if pregunta == 1:
+    def cuadradosperfectos(a, b):
+
+        if (a**2 <= b):
+            print(a**2)
+            cuadradosperfectos(a+1, b)
+    cuadradosperfectos(
+        0, int(input("Introduzca hasta que valor quiere que llegue su lista de cuadrados perfectos: ")))
+elif pregunta == 2:
+    a = int(input(
+        "Introduzca un número entero para el cual desee obtener su raíz cuadrada: "))
+    print("La raíz cuadrada de " + str(a) + " es igual a " + str(math.sqrt(a)))
+
+else:
+  print("Por favor, introduzca valores correctos (1 ó 2)")
+```
 
