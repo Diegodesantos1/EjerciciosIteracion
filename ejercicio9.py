@@ -18,12 +18,8 @@ def eliminar_palabra():
   print(lista)
   eleccion_actual()
 def ordenar_palabra():
-  print("¿Quieres ordenar la lista? si o no")
-  si_no=str(input())
-  if si_no == "si":
-    print(lista.sort())
-  else:
-    sys.exit
+    lista.sort()
+    print(lista)
 def eleccion_actual():
   print("¿Qué quieres hacer? añadir, eliminar, ordenar o terminar")
   eleccion= str(input())
@@ -34,5 +30,6 @@ def eleccion_actual():
   if eleccion == "ordenar":
     ordenar_palabra()
   if eleccion == "terminar":
+    print(lista)
     sys.exit
 añadir_palabra()
